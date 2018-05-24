@@ -18,3 +18,67 @@ body
 	font-family: $roboto
 	+f(30px, 700, 1.16)
 	letter-spacing: 0
+
+.block-img
+
+	background-size: cover
+	background-position: 50% 50%
+	background-repeat: no-repeat
+	padding: 55px 0
+	text-align: center  
+	margin-bottom: 50px
+	position: relative
+	&:after
+		content: ''
+		position: absolute
+		left: 0
+		right: 0
+		top: 0
+		bottom: 0
+		z-index: 5
+		background-color: rgba(0, 0, 0, 0.6)
+		
+	&__logo
+		position: relative
+		z-index: 10
+
+.hero-logo
+	font-size: 0
+	width: 80px
+	display: block
+	margin: 0 auto 
+	img
+		display: block
+		max-width: 100%
+
+.row
+	margin: 0 -20px
+	+clr
+
+.col
+	float: left
+	padding: 0 20px
+	&-50
+		width: 50%
+	&-33
+		width: 33.3%
+	&_25
+		width: 25%
+	&-lg-25
+		+lg
+			width: 25%
+	&-md-33
+		+md
+			width: 33%
+	&-md-50
+		+md
+			width: 50%
+	&-sm-33
+		+sm
+			width: 33.3%
+	&-sm-50
+		+sm
+			width: 50%
+	&-sm-100
+		+sm
+			width: 100%

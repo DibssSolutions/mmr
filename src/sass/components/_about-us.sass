@@ -1,0 +1,72 @@
+.about-us
+	&__title
+		color: $darkBlue
+		margin-bottom: 30px
+	&__text
+		p
+			line-height: 2.06
+			color: $lightBlue
+			font-weight: 700 
+		p:not(:last-child)
+			margin-bottom: 45px 
+	&__block
+		margin-bottom: 80px
+
+.services
+	&__title
+		margin-bottom: 27px
+	&__block
+		display: inline-block
+		text-align: center
+		font-size: 0
+	&__item
+		display: inline-block
+		text-align: center
+		width: 260px
+		padding: 49px 25px 46px
+		background-color: #f8f8f8
+		// margin-bottom: 42px
+		&:hover
+			background-color: $white 
+			box-shadow: 0 42px 40px -20px rgba(107, 162, 255, 0.26)
+			position: relative
+	&__subtitle
+		color: $darkBlue
+		font-weight: 700 
+		margin-bottom: 8px
+		font-size: 16px
+	&__description
+		color: $lightBlue
+		font-weight: 700
+		font-size: 14px
+		 
+
+.artist
+	+md
+		padding: 0 20px 
+	&__title
+		margin-bottom: 37px
+	&__block
+		margin-bottom: 40px 
+	&__item
+		// width: 230px
+		// display: inline-block
+		overflow: hidden
+		border-radius: 10px 10px 0 0
+		// margin: 0 20px 42px
+		&:hover
+			box-shadow: 0 42px 40px -20px rgba(107, 162, 255, 0.26)
+	&__photo-in
+		background-position: 50% 50%
+		background-size: cover
+		background-repeat: no-repeat
+		padding-bottom: 100%
+	&__name
+		padding: 35px 0
+		text-align: center
+		color: $darkBlue
+		font-weight: 700
+		font-size: 16px
+	&__btn
+		text-align: center
+		margin-bottom: 100px

@@ -5,3 +5,7 @@ PageList:
   ready: 100
 - file: card.html
   ready: 100
+- file: about-us.html
+  ready: 100
+- file: services-page.html
+  ready: 100
