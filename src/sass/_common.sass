@@ -20,7 +20,6 @@ body
 	letter-spacing: 0
 
 .block-img
-
 	background-size: cover
 	background-position: 50% 50%
 	background-repeat: no-repeat
@@ -52,17 +51,33 @@ body
 		max-width: 100%
 
 .row
+	display: flex
+	flex-wrap: wrap
 	margin: 0 -20px
 	+clr
+	+md
+		margin: 0 -10px 
+	&_mar
+		margin: 0
+		+sm
+			margin: 0 -10px 
 
 .col
 	float: left
 	padding: 0 20px
+	+md
+		padding: 0 10px 
+	&_pad
+		padding: 0 
+		+md
+			padding: 0 10px
+	&-100
+		width: 100%
 	&-50
 		width: 50%
 	&-33
 		width: 33.3%
-	&_25
+	&-25
 		width: 25%
 	&-lg-25
 		+lg
@@ -82,3 +97,25 @@ body
 	&-sm-100
 		+sm
 			width: 100%
+
+.input
+	width: 100%
+	padding-bottom: 16px
+	border-bottom: solid 2px #f2f2f2
+	+placeholder
+		color: $lightBlue
+		font-weight: 600
+		font-size: 16px
+
+.textarea
+	width: 100%
+	display: block
+	background-color: #f8f8f8
+	border-radius: 10px
+	border-width: 0
+
+.label
+	font-weight: 700
+	color: $lightBlue
+	margin-bottom: 16px
+	display: block
