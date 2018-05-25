@@ -14,6 +14,54 @@
     <!-- BEGIN content -->
     <div class="out js-smooth-wheel">
       <div class="out__inner js-out-inner">
+        <!-- begin header -->
+        <header class="header js-header">
+          <div class="header__overlay js-header-overlay"></div>
+          <div class="header__inner inner">
+            <!-- begin logos -->
+            <div class="logos js-logos">
+              <div class="logos__inner js-logos-inner">
+                <div class="logos__wrap js-logos-wrap">
+                  <!-- begin logo --><a href="#" class="logo">
+						<img src="./img/logo.png" alt="img">
+					</a>
+                  <!-- end logo -->
+                  <div class="full-logo js-full-logo">
+                    <div class="full-logo__inner"> <a href="#" class="logo-m js-logo-m">
+								<span class="logo-m__symbol">
+									<img class="logo-m__symbol" src="./img/logo-m.png" alt="img">
+								</span>
+								<img class="logo-m__musictown js-logo-m-text" src="./img/musictown.png" alt="img">
+								<img class="logo-m__records js-logo-m-text" src="./img/records.png" alt="img">
+							</a> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end logos -->
+            <!-- begin navigation -->
+            <nav class="navigation js-navigation">
+              <ul class="menu js-menu">
+                <li class="menu__item"><a href="#" class="menu__link">Артисты</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Релизы</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Фото</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Видео</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">О нас</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">События</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Авторам</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+              </ul>
+            </nav>
+            <!-- end navigation -->
+            <!-- begin btn-menu --><button class="btn-menu js-btn-menu">
+			<span class="btn-menu__line"></span>
+			<span class="btn-menu__line"></span>
+			<span class="btn-menu__line"></span>
+		</button>
+            <!-- end btn-menu -->
+          </div>
+        </header>
+        <!-- end header -->
         <!-- begin services-page -->
         <div class="services-page">
           <div class="services-page__block-img block-img" style="background-image: url(http://via.placeholder.com/1140x210);">
@@ -101,22 +149,22 @@
             <div class="services-page__inner inner">
               <div class="checkout__group">
                 <h2 class="checkout__title-md title-md">Напишите нам</h2>
-                <div class="checkout__row row">
-                  <div class="checkout__col col col-100">
+                <div class="checkout__row">
+                  <div class="checkout__col col-100">
                     <div class="checkout__form-group form-group"> <input type="text" class="checkout__input input" placeholder="Имя"> </div>
-                    <div class="checkout__row row">
-                      <div class="checkout__col col col-50 col-sm-100">
+                    <div class="checkout__row">
+                      <div class="checkout__col col-50 col-sm-100">
                         <div class="checkout__form-group form-group"> <input type="text" class="checkout__input input" placeholder="Телефон"> </div>
                       </div>
-                      <div class="checkout__col col col-50 col-sm-100">
+                      <div class="checkout__col col-50 col-sm-100">
                         <div class="checkout__form-group form-group"> <input type="text" class="checkout__input input" placeholder="eMail"> </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="checkout__row row">
-                  <div class="checkout__col col col-100 col-sm-100">
-                    <div class="checkout__form-group form-group"> <label for="textarea" class="checkout__label label">Напишите сообщение</label> <textarea class="textarea" name="" id="textarea" cols="30" rows="10"></textarea> </div>
+                <div class="checkout__row">
+                  <div class="checkout__col col-100 col-sm-100">
+                    <div class="checkout__form-group form-group"> <label for="textarea" class="checkout__label label">Напишите сообщение</label> <textarea class="textarea" name="" id="textarea" cols="30" rows="12"></textarea> </div>
                   </div>
                 </div>
                 <div class="form__submit"> <button class="button-submit">Отправить</button> </div>
@@ -129,8 +177,9 @@
     </div>
     <!-- END content -->
     <!-- BEGIN scripts -->
+    <script src="https://api-maps.yandex.ru/2.0/?load=package.standard,package.geoObjects&lang=ru-RU" type="text/javascript"></script>
     <script type="text/javascript" src="js/app.js"></script>
-    <script src="http://api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU" type="text/javascript"></script>
+    <!--  <script src="http://api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU" type="text/javascript"></script> -->
     <!-- END scripts -->
   </body>
 

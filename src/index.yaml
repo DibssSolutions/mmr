@@ -9,3 +9,7 @@ PageList:
   ready: 100
 - file: services-page.html
   ready: 100
+- file: contacts.html
+  ready: 100
+- file: event.html
+  ready: 100
