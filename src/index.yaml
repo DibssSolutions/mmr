@@ -13,3 +13,5 @@ PageList:
   ready: 100
 - file: event.html
   ready: 100
+- file: events.html
+  ready: 50
